@@ -18,3 +18,24 @@ Once the install for uWebSocketIO is complete, the main program can be built and
 cmake >= 3.5  
 make >= 4.1  
 gcc/g++ >= 5.4  
+
+#Brief INfo aabout the program
+Input  
+values provided by the simulator to the c++ program  
+
+["sensor_measurement"] => the measurement that the simulator observed from either of the twomotion sensors   
+
+Output  
+values provided by the c++ program to the simulator  
+
+["estimate_x"] <= kalman filter estimated position x  
+
+["estimate_y"] <= kalman filter estimated position y  
+
+["rmse_x"]  
+
+["rmse_y"]  
+
+["rmse_vx"]  
+
+["rmse_vy"]  
